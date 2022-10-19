@@ -9,6 +9,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
+    color: #707070;
 }
 
 img {
@@ -41,6 +42,10 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
 h3 {
     color: #1792d2;
 }
@@ -56,6 +61,10 @@ a:focus {
 
 strong {
     font-weight: 700;
+}
+
+.footer-body{
+    opacity: 85%;
 }
 
 /* h1 subtitle */
@@ -133,7 +142,8 @@ footer {
     background:#143774;
     color: white;
     text-align: center;
-    padding: 2em 0;
+    padding: 1em 0;
+    margin-top: 5em;
 }
 
 @media (min-width: 750px) {
@@ -256,6 +266,10 @@ nav a:focus {
     }
 }
 
+.space_below{
+    margin-bottom: 4em;
+}
+
 /* widgets */
 
 .sidebar-widget {
@@ -278,4 +292,9 @@ nav a:focus {
 
 .widget-image {
     order: -1;
+}
+
+.widget-body {
+    color: #143774;
+    font-size: 1rem;
 }
